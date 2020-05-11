@@ -13,9 +13,9 @@ section#zazu {
   cursor: move;
 }
 section#zazu input {
-  font-weight: 300;
+  font-weight: 400;
   outline: none;
-  font-size: 40px;
+  font-size: 36px;
   width: 500px;
   padding: 20px;
   border: 0;
@@ -70,15 +70,15 @@ section#zazu div.results ul li h2,
 section#zazu div.results ul li h3 {
   margin: 0;
   padding-left: 10px;
-  color: #e6e6e6;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 300;
 }
 section#zazu div.results ul li h2 {
+  padding-top:8px;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 25px;
   color: #f0f0f5;
 }
 section#zazu div.results ul li h2:last-child {
@@ -88,7 +88,7 @@ section#zazu div.results ul li h2:last-child {
 section#zazu div.results ul li h3 {
   font-size: 15px;
   line-height: 20px;
-  color:#c5d9e8;
+  color:#8eaabd;
 }
 section#zazu div.results ul li.active {
   background-color: #36434f;
@@ -96,7 +96,7 @@ section#zazu div.results ul li.active {
 }
 
 section#zazu div.results ul li.active h3 {
-  color: #c2e5ff;
+  color: #b1cde3;
 }
 section#zazu div.results ul li:hover {
   background-color: #2a343d;
