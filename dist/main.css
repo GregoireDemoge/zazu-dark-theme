@@ -5,7 +5,8 @@ body {
   font-size: 20px;
   font-family: 'SF Pro Display' !important;
   letter-spacing: 0.005em ;
-  border-radius: 8px;
+  border-radius: 8px !important;
+  overflow: hidden;
 }
 section#zazu {
   background-color: #232429;
@@ -38,7 +39,7 @@ section#zazu div.results ul {
   padding: 0;
   margin: 0;
   border-top: 1px solid #202020;
-  max-height: 333px;
+  max-height: 500px;
   overflow: hidden;
   width: 50%;
 }
@@ -73,6 +74,7 @@ section#zazu div.results ul li h3 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+    font-weight: 400;
 
 }
 section#zazu div.results ul li h2 {
