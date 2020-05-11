@@ -62,7 +62,7 @@ section#zazu div.results ul li .icon {
   line-height: 25px;
   height: 20px;
   width: 20px;
-  margin: 20px 10px;
+  margin: 20px 20px;
   float: left;
   opacity: 1;
 }
@@ -96,7 +96,7 @@ section#zazu div.results ul li.active {
 }
 
 section#zazu div.results ul li.active h3 {
-  color: #b1cde3;
+  color: #79a0bd;
 }
 section#zazu div.results ul li:hover {
   background-color: #2a343d;
